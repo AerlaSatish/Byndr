@@ -1,0 +1,176 @@
+html{height:100%;}
+body{font-family:'lato','Roboto','Source Sans Pro', 'Helvetica', Arial, sans-serif;background-color:#f3f3f3;font-size: 14px;}
+a{color:#ae3266}
+a:hover,a:focus{color:#ae3266}
+h1,h2{font-family:'lato','Roboto',  'Helvetica', Arial, sans-serif}
+.content{margin:0 auto;padding-top:16px;min-height:100%;margin-bottom:-90px}
+.content:after{content:"";display:block}
+.f8{font-size: 0.8em;}
+.MT30{margin-top:30px;}
+.P0{padding: 0px;}
+.FR{float: right;}
+.B{font-weight:bold;}
+.PR10{padding-right:10px; }
+.MT80{margin-top:80px}
+.P20{padding: 20px 0px;}
+/* .navbar-header{width: 60%;}
+.navbar-nav{width: 40%;} */
+.navbar-nav li{width:33.3%;text-align: center; }
+.navbar-nav li a{padding: 15px 0px;}
+.navbar-nav li img{max-width:50%;float:right;}
+.searchbg{background-color: #e6e6e6;}
+.Mx100{max-width: 100% !important;}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/*Header*/
+.WebHeader .navbar-header .navbar-brand{padding: 5px 15px;}
+/*Content*/
+.nav > li > a:focus, .nav > li > a:hover{background: #fff;}
+.left-content,.right-content{border: 1px solid #ccc;background: #fff;padding: 10px 30px;}
+.right-content img{margin: 0 auto;padding: 0px 0px 20px 0px;}
+.right-content .q-launch{text-align: center;background: #ccc9;padding: 5px;font-weight: bold;}
+.right-content .qlaunch-checklist{list-style:none;padding:0px;}
+.right-content .qlaunch-checklist li{padding: 5px 0px;border-bottom:1px solid #f5f5f5;}
+.right-content .launch:hover{background-color: #c42074;border-color:#c42074;color:#fff;}
+.save-finish:hover{background-color: #c42074;color:#fff;}
+.save-finish{background-color: #c42074;border-color:#c42074;color:#fff;}
+.cancel{background-color: #e6e6e6;border-color: #adadad;}
+.right-content .launch{background-color: #c42074;border-color:#c42074;padding: 0 3em;line-height: 2.8em;font-size: 1.1em;font-weight: 400;color:#fff;text-align: center;width:100%;border-color:#c42074;border-radius: 0px;}
+.left-content .top-heading h2{font-weight:bold;}
+/* .left-content .top-heading p{font-size: 26px;font-weight:lighter;} */
+.left-content .top-heading p:after{border-bottom: 3px solid #ccc;}
+.left-content .dropdown button{width: 100%;height: 50px;text-align: left;}
+.left-content .dropdown .caret{float: right;top: 22px;right: 15px;position: absolute;}
+.byndr-records{font-size:0.9em;margin-top:80px;background:#fff;cursor: pointer;}
+.note{font-size: 0.8em;}
+.note a{color:#0093ff; }
+/* .content  .left-content .top-heading::after{content: '';color:#ccc;width:20%;} */
+
+/*Content*/
+.navbar-fixed-top{background: #fff;border-bottom: 1px solid #E4E4E4;min-height: 60px;padding: 10px 11px;}
+
+/*Checkbox*/
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 2.95em;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1em;
+  padding-top:2px;
+  margin: 5px 0px;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0;
+  width: 1.65em; height: 1.65em;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: -0.1em; left: .075em;
+  font-size: 2.0em;
+  line-height: 0.8;
+  color: #09ad7e;
+  transition: all .2s;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+ 
+}
+
+
+/* .WebHeader,.Mobileheader{background: #fff;border-bottom: 1px solid #E4E4E4;min-height: 60px;padding: 10px 11px;} */
+.WebHeader ul.nav li a{color: #0b0909;font-weight: bold;}
+.search{padding: 10px 15px;}
+.Mobileheader{display: flex;}
+.Mobileheader .toggleBars{font-size:30px;cursor:pointer;background:#fff;}
+.Mobileheader img{margin: 0 auto;}
+.rightArw{padding-right: 10px;font-size: 1.2em;color: #4444;float: right;}
+.DrprightArw{padding-left: 120px;font-size: 1.6em;color: #4444;position: absolute;right: 15px;bottom: 10px;}
+.dropdown .btn:hover{background: #fff;}
+/**/
+.t-header{/*background-color: #f5f5f5;*/padding: 8px 0px;border-top:1px solid #f5f5f5;font-weight:bold;}
+.m-header{background-color: #c42074;color:#fff;border-top:1px solid #f5f5f5;font-weight:bold;font-size:12px;}
+.data-header{padding: 8px 0px;font-weight: bold;}
+.t-header div{border-right:1px solid #111;}
+.t-header div span.badge{background-color: #c42074;color:#fff;margin-top: -15px;font-size: 0.8em;}
+.m-header div{border-right:1px solid #f5f5f5;padding: 8px 0px 8px 10px;}
+.t-header div:last-child{border-right:0px;}
+.t-header div.active{color:#c42074;text-decoration-line: 1px solid #4444;}
+.m-header div:last-child{border-right:0px;}
+.data-header div.col-lg-2{font-weight: bold;}
+.data-header .title{padding-left:10px }
+.data-header .title span{float: right;font-size: 1.2em;border: 1px solid;border-radius: 3px;width: 18px;height: 18px;line-height: 1.0;text-align: center;position: absolute;right:10px;}
+.data-header ul.datalist{list-style:none;padding:0px;font-weight: 400;}
+.data-header ul.datalist li {padding:5px 0px 5px 10px;border-bottom:1px solid #f5f5f5;border-right:1px solid #ccc;}
+.data-header ul.datalist li.active{background-color:#0093ff;color:#fff;padding-left:10px;border-right:1px solid #fff;}
+.data-header ul.datalist li.active span{position: absolute;right:15px;}
+@media screen and (min-width:1367px){
+    .Mobileheader{display: none;}
+}
+@media screen and (min-width:1024px) and (max-width:1366px){
+    .Mobileheader{display: none;}
+}
+@media screen and (max-width:667px) and (orientation:portrait){
+.WebHeader{display: none;}
+}
+@media screen and (min-width:375px) and (max-width:768px) and (orientation:landscape){
+    .Mobileheader{display: none;}
+}

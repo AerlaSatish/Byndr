@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-fixed-top">
+            <div class="container WebHeader">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img class="img-responsive" src="images/byndr_logo.png"></a>
+                <div class="input-group search">
+                    <input type="text" class="form-control searchbg" placeholder="search byndr" name="search">
+                </div>
+              </div>
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="advertise.html">Add Your Data</a></li>
+                <li><a href="index.html">FAQs & Help</a></li>
+                <li><img class="img-responsive" src="images/byndr.png"></li>
+              </ul>
+            </div>
+            <div class="container Mobileheader">
+                    <span class="toggleBars" onclick="openNav()">&#9776;</span>
+                    <img class="img-responsive" src="images/byndr_logo.png"> 
+                    <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="#">About</a>
+                            <a href="#">Services</a>
+                            <a href="#">Clients</a>
+                            <a href="#">Contact</a>
+                    </div>
+            </div>
+          </nav>
+	</header>
+	
+	<div class="container MT80">
+        <!-- <h3>Fixed Navbar</h3> -->
+        <div class="row">
+            <div class="col-md-7 col-sm-7 col-xs-12 left-content">
+                <div class="top-heading">
+                    <h2 class="text-center">Welcome Marc!</h2>
+                    <p class="text-center">Thanks fof Signing up</p>
+                </div>
+                <div>
+                    <p>We are happy you here, thanks for signing up with Byndr.Byndr provides <strong>Byndr University</strong> a mobile-first, lightweight LMS platform. Students, Teachers and Administrators can stay connected outside the classroom. </p>
+                    <p>Byndr is easy for everyone is college to use. Watch this quick video below to get familiar with the Byndr platform.</p>  
+                </div>  
+                <video width="100%" controls autoplay>
+                    <source src="https://06-lvl3-pdl.vimeocdn.com/01/689/5/128447381/371635019.mp4?expires=1516708472&amp;token=069ae577c64ded7bd3fc1" type="video/mp4">
+                </video> 
+             </div>
+          
+            <div class="col-md-4 col-sm-4 col-xs-12 right-content pull-right"> 
+                <img class="img-responsive" src="images/byndr.png">
+                <p class="q-launch">Quick Launch Checklist!</p>
+                <ul class="qlaunch-checklist">
+                    <li><input type="checkbox" id="1" checked="checked" /><label>Add a logo</label><span class="rightArw">&#8250;</span></li>
+                    <li><input type="checkbox" id="2" checked="checked" /><label>Start Guided Data Setup</label><span class="rightArw">&#8250;</span></li>
+                    <li><input type="checkbox" id="3" /><label>Terms and Courses Added</label><span class="rightArw">&#8250;</span></li>
+                    <li><input type="checkbox" id="4" /><label>Faculty Added</label><span class="rightArw">&#8250;</span></li>
+                    <li><input type="checkbox" id="5" /><label>Student Added</label><span class="rightArw">&#8250;</span></li>
+                </ul>
+                <p class="note">When your ready to start welcoming administrators and faculty to Byndr,click 'Launch Byndr'.Your <a href="#">free trail period</a> when you first launch.</p>
+                <button class="btn btn-default launch">Launch Byndr <span>&#8594;</span></button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-7 left-content">
+                <div class="top-heading">
+                <h2 class="text-center">Ready to Get Started?</h2>
+                <p class="text-center">Let's setup some data.</p>
+                <span></span>
+                </div>
+                <div>
+                  <p>We are happy you here, thanks for signing up with Byndr.Byndr provides <strong>Byndr University</strong> a mobile-first, lightweight LMS platform. Students, Teachers and Administrators can stay connected outside the classroom. </p>
+                  <p>Byndr is easy for everyone is college to use. Watch this quick video below to get familiar with the Byndr platform.</p>  
+                </div> 
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"> Start Guided Data Setup<span class="DrprightArw">&#8250;</span></button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">1</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">3</a></li>
+                    </ul>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+</body>
+
+</html>
+
